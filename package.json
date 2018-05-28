@@ -1,0 +1,24 @@
+{
+  "name": "@laura-wert/git-clean-status",
+  "version": "1.0.0",
+  "description": "git-clean-status",
+  "bin": {
+    "git-clean-status": "./git-clean-status.js"
+  },
+  "scripts": {
+    "release": "git-clean-status && yarn publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LauraWert/git-clean-status.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LauraWert/git-clean-status/issues"
+  },
+  "homepage": "https://github.com/LauraWert/git-clean-status#readme"
+}
